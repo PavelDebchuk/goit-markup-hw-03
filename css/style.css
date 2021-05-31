@@ -73,8 +73,12 @@ body {
     color:var(--color-hover);
 }
 
-.menu-item:nth-child(2) {
-    padding: 0 50px;
+.menu-item {
+    margin-right: 50px;
+}
+
+.menu-item:nth-child(3) {
+    margin-right: 0;
 }
 
 .contact {
@@ -104,12 +108,12 @@ body {
 .slider {
     background: #2F303A;
     text-align: center;
+    padding: 200px 0;
 }
 
 .order-service {
     background: #2196F3;
     color: #ffffff;
-    margin-bottom: 106px;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
@@ -124,7 +128,7 @@ body {
     text-transform: uppercase;
     color:var(--color-white);
     font-size: 44px;
-    padding: 106px 0 30px 0;
+    margin-bottom: 30px;
     line-height: 60px;
 }
 
@@ -133,15 +137,15 @@ body {
     font-size: 36px;
     color:var(--color-text);
     text-align: center;
-    margin: 0;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .h3 {
+    margin-bottom: 10px;
     font-size: 14px;
     font-weight: 700;
     color:var(--color-text);
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 .h4 {
@@ -166,7 +170,7 @@ body {
 }
 
 .services {
-    padding: 0 0 94px 0;
+    padding-top:0;
 }
 
 .services-img {
@@ -189,16 +193,17 @@ body {
     border-radius: 0px 0px 4px 4px;
 }
 
+.specialist-block {
+    padding: 30px 0;
+}
+
 .team {
     text-transform: capitalize;
-    padding: 30px 0 0 0;
 }
 
 .text {
     font-size:14px;
     Line-height:24px;
-    letter-spacing:3%; 
-    padding: 10px 0 10px 0;
     margin: 0;
     color:var(--color-silver);
 }
@@ -208,11 +213,16 @@ body {
 .filter {
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+
 }
 
 .filter-option {
-    margin: 0 4px;
+    margin-right:8px;
+}
+
+.filter-option:nth-child(5) {
+    margin: 0;
 }
 
 .filter-button {
@@ -236,20 +246,15 @@ body {
 .all-portfolio {
     display: flex;
     flex-wrap: wrap;
+    margin:-30px 0 0 -30px;
 }
 
 .all-portfolio .portfolio-item {
-    margin-top: 30px;
     flex-basis: calc(100% / 3 - 30px);
 }
 
-.portfolio-item:nth-child(2),
-.portfolio-item:nth-child(3),
-.portfolio-item:nth-child(5),
-.portfolio-item:nth-child(6),
-.portfolio-item:nth-child(8),
-.portfolio-item:nth-child(9) {
-    margin-left: 30px;
+.portfolio-item {
+    margin: 30px 0 0 30px;
 }
 
 .card-thumb img{
@@ -277,16 +282,16 @@ body {
 
 .footer {
     background:#2F303A;
-    font-style: normal;
+    padding: 60px 0;
 }
 
-.footer-block {
-    padding:60px 15px;
+.logo-footer {
+    margin: 0;
 }
 
 .address {
     font-style: normal;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .address-current {
@@ -299,6 +304,6 @@ body {
     line-height: 24px;
 }
 
-.contact-item {
-    padding-top:9px;
+.footer-item {
+    margin-top: 9px;
 }
